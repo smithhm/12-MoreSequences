@@ -399,7 +399,7 @@ def rectangles_from_circles(circles):
       :rtype: list of rg.Rectangles
     """
     # -------------------------------------------------------------------------
-    # TODO: 10. Implement and test this function.
+    # DONE: 10. Implement and test this function.
     #     The testing code is already written for you (above).
     #
     ###########################################################################
@@ -410,9 +410,16 @@ def rectangles_from_circles(circles):
     #            in this function, so DON'T draw anything in here!
     ###########################################################################
     # -------------------------------------------------------------------------
-
+    r = []
+    for k in range(len(circles)):
+        r = r + [rg.Rectangle(rg.Point(circles[k].center.x - circles[k].radius, circles[k].center.y +
+                                       circles[k].radius), rg.Point(circles[k].center.x + circles[k].radius,
+                                                                    circles[k].center.y - circles[k].radius))]
+    return r
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # -----------------------------------------------------------------------------
+
+
 main()
