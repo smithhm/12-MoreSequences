@@ -291,7 +291,7 @@ def draw_shapes(shapes, window):
     ###########################################################################
     # IMPORTANT: the same
     #    attach_to
-    # method works for ALL the rosegraphics shapes!
+    # method works for ALL the rosegraphics shapes! .
     # FWIW: The word for ideas like this is "polymorphism".
     ###########################################################################
     # -------------------------------------------------------------------------
