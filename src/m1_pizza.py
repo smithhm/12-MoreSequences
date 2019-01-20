@@ -580,7 +580,7 @@ def fancy_polygon(window, circle, number_of_lines, hops_to_next_point, color,
     #
     ###########################################################################
     # IMPORTANT: One way to do "wrapping" is to use the  %  operator
-    #       appropriately.  ASK YOUR INSTRUCTOR FOR AN EXAMPLE.
+    #       appropriately.  ASK YOUR INSTRUCTOR FOR AN EXAMPLE. .
     ###########################################################################
     # -------------------------------------------------------------------------
     circle.attach_to(window)
